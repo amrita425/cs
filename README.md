@@ -40,8 +40,6 @@ ylabel('Amplitude');
 xlabel('Time (sec)');
 ```
 
----
-
 ## 3.2 Effect of Gain (K)
 ```matlab
 clc; clear; close all;
@@ -82,7 +80,7 @@ ylabel('Amplitude');
 title('Effect of Time Constant on First-Order System');
 ```
 
-## 3.4 Stability Analysis of First-Order System (stable)
+## 3.4 (a) Stability Analysis of First-Order System (stable)
 ```matlab
 clc; clear; close all; 
 
@@ -102,7 +100,7 @@ ylabel('Amplitude');
 xlabel('Time (sec)');
 ```
 
-## 3.4 Stability Analysis of First-Order System (unstable)
+## 3.4 (b) Stability Analysis of First-Order System (unstable)
 ```matlab
 clc; clear; close all; 
 
@@ -122,7 +120,7 @@ ylabel('Amplitude');
 xlabel('Time (sec)');
 ```
 
-
+---
 
 ## 4.0 Basic code
 ```matlab
@@ -228,6 +226,7 @@ g = tf(n, d);
 step(g, 10)
 ```
 
+---
 
 ## 5.1 Stable System
 ```matlab
@@ -304,3 +303,5 @@ pzplot(g);
 title('Pole-Zero Plot – Marginally Stable System');
 
 ```
+
+---
