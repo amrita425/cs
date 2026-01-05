@@ -4,21 +4,7 @@
 
 ---
 
-# EXERCISE 03  
-## Time Domain Response of a First-Order System
-
-### System Model
-\[
-G(s) = \frac{K}{Ts + 1}
-\]
-
-Pole:
-\[
-s = -\frac{1}{T}
-\]
-
----
-
+# ANALYSIS OF THE TIME DOMAIN RESPONSE OF A FIRST-ORDER SYSTEM
 ## 3.1 Basic Step Response
 ```matlab
 clc; clear; close all; 
@@ -121,7 +107,7 @@ xlabel('Time (sec)');
 ```
 
 ---
-
+# ANALYSIS OF THE TIME DOMAIN RESPONSE OF SECOND-ORDER SYSTEMS
 ## 4.0 Basic code
 ```matlab
 clc, clear, close all;
@@ -227,7 +213,7 @@ step(g, 10)
 ```
 
 ---
-
+# STABLITY ANALYSIS USING POLE-ZERO PLOT
 ## 5.1 Stable System
 ```matlab
 clear; clc; close all;
